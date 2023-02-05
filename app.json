@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "RentCar",
+    "slug": "RentCar",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon-rc.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.rizkirama278.RentCar"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a4cc65c6-631d-4f05-8eac-40d1857b20fa"
+      }
+    }
+  }
+}
